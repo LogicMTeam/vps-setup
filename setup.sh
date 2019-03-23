@@ -17,7 +17,7 @@ cp -r /root/.oh-my-zsh /etc/skel/.oh-my-zsh
 cp /root/.zshrc /usr/share
 ln -f /usr/share/.zshrc /etc/skel/.zshrc
 #/etc/adduser.conf
-useradd -D -s /bin/bash
+useradd -D -s /bin/zsh
 chmod 755 /usr/share/.zshrc
 exit
 cp -r /etc/skel/.oh-my-zsh ~/.oh-my-zsh
