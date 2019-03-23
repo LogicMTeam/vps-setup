@@ -10,7 +10,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-curl -o .zshrc https://raw.githubusercontent.com/LogicMTeam/vps-setup/master/.zshrc
+curl -Lso .zshrc https://raw.githubusercontent.com/LogicMTeam/vps-setup/master/.zshrc
 #coppy new .zshrc
 source ~/.zshrc
 cp -r /root/.oh-my-zsh /etc/skel/.oh-my-zsh
